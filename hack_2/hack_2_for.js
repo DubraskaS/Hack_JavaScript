@@ -7,6 +7,11 @@
  */
 let result = [];
 
+for(let i = 1; i <= 5; i++){  //inicializamos i en 1 en vez de en 0
+    result.push(i)
+}
+
+console.log(result) //para corroborar el resultado antes del test
 
 //export result
 module.exports = result;

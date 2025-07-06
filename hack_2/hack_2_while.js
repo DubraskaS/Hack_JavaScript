@@ -7,6 +7,14 @@
  */
 let result = [];
 
+let i = 1; // inicializamos en 1 en vez de en 0
+
+while(i <= 5){
+    result.push(i);
+    i++;
+}
+
+console.log(result);
 
 //export result
 module.exports = result;
