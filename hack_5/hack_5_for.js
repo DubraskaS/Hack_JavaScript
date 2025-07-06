@@ -7,6 +7,11 @@
  */
 let result = [];
 
+for(let i = 7; i >= 1; i -= 2){ //Decremento de dos en dos e inicio en 7
+    result.push(i);
+}
+
+console.log(result);
 
 //export result
 module.exports = result;
