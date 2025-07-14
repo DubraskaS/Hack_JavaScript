@@ -6,9 +6,17 @@
  *
  * output => ["f","o","o","z","i","m","a,"n"]
  */
-let str = "fooziman";
+let str = "fooziman"; //el string de entrada, que necesitamos dividir para el output
 let result = [];
 
+// Usamos un bucle 'for' para iterar sobre "fooziman"
+// 'i' va desde 0 hasta el último índice de la palabra (str.length - 1)
+for (let i = 0; i < str.length; i++) {
+  // En cada iteración, 'str[i]' accede a la letra en la posición actual
+  result.push(str[i]); // Añadimos esa letra al array 'result'
+}
+
+console.log(result)
 
 //export result
 module.exports = result;
