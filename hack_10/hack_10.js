@@ -15,6 +15,15 @@
 let arr = ["foo","bar","baz","qux","echo","octo","cat","foobar","quux"];
 let result = [];
 
+//USANDO FOR
+
+for (let i = 0; i < arr.length; i++){
+   if(i % 2 == 1){ //todos los impares:
+      result.push(arr[i]);  //se incluyen en e array result
+   }
+}
+
+console.log(result);
 
 //export result
 module.exports = result;
